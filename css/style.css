@@ -755,13 +755,13 @@ body {
 
   .modularity-img {
     position: absolute;
-    top: 720px;
+    top: 805px;
     left: 420px;
     height: 400px;
   }
 
   .modularity-description {
-    padding-top: 400px;
+    padding-top: 335px;
     text-align: left;
   }
 
@@ -778,7 +778,7 @@ body {
   }
 
   .modularity-bottom {
-    bottom: 50px;
+    bottom: 104px;
   }
 
   .table {
@@ -849,11 +849,11 @@ body {
   }
 
   .modularity-header {
-    top: -100px;
+    top: -163px;
   }
 
   .library-media {
-    margin: 0 auto;
+    margin: 100px auto;
   }
 
   .modularity-img {
@@ -861,11 +861,11 @@ body {
   }
 
   .modularity-bottom {
-    bottom: -26px;
+    bottom: 102px;
   }
 
   .analytics-header {
-    top: -100px;
+    top: -203px;
   }
 
   .analytics-star {
@@ -966,7 +966,7 @@ body {
   }
 
   .modularity-bottom {
-    bottom: -110px;
+    bottom: 101px;
   }
 
   .circle-imgage img {
@@ -1003,6 +1003,13 @@ body {
 
   .menu-list .menu-item {
     margin-left: 15px;
+  }
+}
+@media (max-width: 710px) {
+  .modularity-description {
+    padding-top: 266px;
+    text-align: left;
+    font-size: 20px;
   }
 }
 @media (max-width: 665px) {
@@ -1057,16 +1064,16 @@ body {
   }
 
   .modularity-img {
-    top: 540px;
+    top: 728px;
     left: 80px;
   }
 
   .modularity-bottom {
-    bottom: -188px;
+    bottom: 50px;
   }
 
   .analytics-header {
-    top: -115px;
+    top: -205px;
   }
 
   .analytics-star {
@@ -1111,12 +1118,12 @@ body {
   }
 
   .modularity-img {
-    top: 540px;
+    top: 668px;
     left: 30px;
   }
 
   .modularity-bottom {
-    bottom: -273px;
+    bottom: -14px;
   }
 
   .library-img {
@@ -1149,7 +1156,7 @@ body {
   }
 
   .modularity-header {
-    top: -50px;
+    top: -180px;
   }
 
   .modularity-table {
@@ -1157,13 +1164,13 @@ body {
   }
 
   .modularity-img {
-    top: 440px;
+    top: 616px;
     left: 0px;
     height: 370px;
   }
 
   .modularity-bottom {
-    bottom: -373px;
+    bottom: -86px;
   }
 
   .circle-imgage img {
@@ -1206,6 +1213,13 @@ body {
     width: 100px;
   }
 }
+@media (max-width: 391px) {
+  .modularity-description {
+    padding-top: 247px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
 @media (max-width: 365px) {
   .modularity-table {
     width: 150px;
@@ -1216,7 +1230,7 @@ body {
   }
 
   .modularity-bottom {
-    bottom: -449px;
+    bottom: -150px;
   }
 
   .library-img {
@@ -1232,7 +1246,7 @@ body {
   }
 
   .ifoliocorp-text {
-    margin-left: 69px;
+    margin-left: 40px;
     font-size: 20px;
   }
 }
@@ -1247,5 +1261,10 @@ body {
 
   .library-img {
     width: 60%;
+  }
+
+  .library-items {
+    margin-top: 125px;
+    padding-left: 60px;
   }
 }
