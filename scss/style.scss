@@ -20,6 +20,7 @@ body{
    font-family: 'PT Serif', serif;
    margin: 0 auto;
    /*max-width: 1920px;*/
+   overflow-x: hidden;
 }
 .header{
    background: url(../img/fon.jpg);
@@ -100,26 +101,28 @@ body{
    background-color: #000;
    margin-top: 500px;
    height: 1531px;
+   .modularity-header{
+      display: flex;
+      position: relative;
+      width: 100%;
+      top: -210px;
+      left: 0;
+      opacity: 1.75; 
+      overflow-y: hidden;
+      
+   }
+   .modularity-header-img1{
+      width: 7000px;
+      animation: modularity 15s linear infinite; 
+      
+   }
+   .modularity-header-img{
+      width: 7000px;
+      animation: modularity 10s linear infinite;
+   }
 }
-.modularity-header{
-   display: flex;
-   position: relative;
-   width: 100%;
-   top: -210px;
-   left: 0;
-   opacity: 1.75; 
-   overflow-y: hidden;
-   
-}
-.modularity-header-img1{
-   width: 7000px;
-   animation: modularity 15s linear infinite; 
-   
-}
-.modularity-header-img{
-   width: 7000px;
-   animation: modularity 10s linear infinite;
-}
+
+
 @keyframes modularity {
    0% {
    margin-left: 0;
